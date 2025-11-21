@@ -1,4 +1,4 @@
-package main.java.com.example.hellofx;
+package main.java.com.example.hellofx.stages;
 
 import javafx.application.Application;
 import javafx.scene.Group;

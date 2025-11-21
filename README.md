@@ -1,7 +1,9 @@
 # HelloFX
 This repository contains code written following this [tutorial series](https://www.youtube.com/playlist?list=PLZPZq0r_RZOM-8vJA3NQFZB7JroDcMwev).
 
-Ideally, each commit represents one video/topic.
+## File structure
+- Ideally, each (numbered) commit represents one video/topic. For example `1. Stages` and `2. Scenes`. 
+- Each topic is placed as a module (`com.example.project.module`) like `com.example.hellofx.stages` and `com.example.hellofx.scenes`.
 
 ## Setting up JavaFX
 1. Download JavaFX SDK from https://openjfx.io/index.html
