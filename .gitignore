@@ -1,0 +1,19 @@
+# java compiled output
+*.class
+*.jar
+
+# IntelliJ files
+out/
+.idea/
+.idea_modules/
+*.iml
+
+# vscode
+.vscode/
+.code-workspace
+
+# osx
+.DS_Store
+
+# custom
+ignore/
