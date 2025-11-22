@@ -10,6 +10,9 @@ This repository contains code written following this [tutorial series](https://w
 2. Within IntelliJ: File > Project Structure > Libraries > + > Java > Locate `java-sdk\lib` > OK > Apply
 3. Setup run task: Run > Edit Configurations > Application, set App.java (or whatever name) as entry point
 
+## Setting up SceneBuilder
+1. Download and install [Gluon SceneBuilder](https://gluonhq.com/products/scene-builder/).
+2. In IntelliJ, Go to File > Settings > Language and Frameworks > JavaFX, enter path to SceneBuilder.exe.
 ## Issues and solutions
 These are issues I faced when setting up JavaFX and IntelliJ. I'll include the solutions here for future reference.
 
@@ -41,3 +44,6 @@ Error: JavaFX runtime components are missing
 Separate `main` and `start` declarations into separate classes. [source](https://old.reddit.com/r/JavaFX/wiki/common-problems#wiki_how_do_i_fix_.27error.3A_javafx_runtime_components_are_missing.27.3F)
 
 Additionally, edit Run/Debug Configurations and set `App.java` as entry point for easier testing process.
+
+## Additional Readings
+Jenkov's JavaFX Tutorial - https://jenkov.com/tutorials/javafx/index.html
